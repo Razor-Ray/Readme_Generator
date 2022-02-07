@@ -1,4 +1,5 @@
 // TODO: Include packages needed for this application
+const { Console } = require('console');
 const fs = require('fs')
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
@@ -63,7 +64,8 @@ function init() {
     inquirer.prompt(questions)
         .then((data)=> {
         const fileName = "README.md";
-        writeToFile(fileName, data)
+        writeToFile(fileName, data);
+        console.log("Readme Generating...");
         })
 }
 
