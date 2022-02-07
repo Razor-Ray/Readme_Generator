@@ -63,7 +63,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
         .then((data)=> {
-        const fileName = "README.md";
+        const fileName = "NodeGeneratedREADME.md";
         writeToFile(fileName, data);
         console.log("Readme Generating...");
         })
