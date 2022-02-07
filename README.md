@@ -1,36 +1,38 @@
-# Create Readme 
-  
-  ## Description This project is to do bla bla bla bla  
+# Hello World!
+
+  ![APACHE 2.0](https://img.shields.io/badge/Licence-APACHE-brightgreen)
+
+  ## Description
+  This is to showcase to create high quality readme in a sec.  
   
   ## Table of Contents
   
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
   - [License](#license)
   
   ## Installation
   
   To install necessary dependencies, run the following command:
+  ```
+npm i
+```
   
-  npm i
-  
-
   ## Usage
-  nothing at the moment
+  Nothing at the moment
 
   ## License
-  MIT
+  APACHE 2.0
   
   ## How to Contribute
-  Git fork please.
+  Git fork to use it as you would like.
 
   ## Tests
   To run test, run the following command:
-  
-  npm test
-  
+  ```
+npm test
+```
   
   ## Questions
   
-  If you have any questions about the repo, open an issue or contact me directly at surajshrestha121@hotmail.com. You can find more of my work at [Razor-Ray](https://github.com/Razor-Ray).
+  If you have any questions about the repo, open an issue or contact me directly at surajshrestha121@gmail.com. You can find more of my work at [Mad Readme](https://github.com/Mad Readme).
